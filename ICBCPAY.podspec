@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'ICBCPAY/Classes/ICBCHeader.h'
 
   s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
-#  s.vendored_frameworks = ["ICBCPAY/ICBCPaySDK.framework"]
-#  s.resources    = 'ICBCPAY/Resources/ICBCPaySDK.bundle'
+  s.vendored_frameworks = ["ICBCPAY/ICBCPaySDK.framework"]
+  s.resources    = 'ICBCPAY/Resources/ICBCPaySDK.bundle'
   s.dependency     'Toast', '~> 4.0.0'
   s.dependency     'GTMBase64', '1.0.1'
   s.dependency 'AlipaySDK-iOS', '~> 15.6.8'
