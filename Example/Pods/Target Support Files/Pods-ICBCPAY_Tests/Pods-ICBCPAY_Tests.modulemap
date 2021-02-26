@@ -1,0 +1,6 @@
+framework module Pods_ICBCPAY_Tests {
+  umbrella header "Pods-ICBCPAY_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

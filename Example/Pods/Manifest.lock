@@ -1,0 +1,35 @@
+PODS:
+  - AlipaySDK-iOS (15.6.8)
+  - GTMBase64 (1.0.1)
+  - ICBCPAY (0.1.0):
+    - AlipaySDK-iOS (~> 15.6.8)
+    - GTMBase64 (= 1.0.1)
+    - Toast (~> 4.0.0)
+    - WechatOpenSDK
+  - Toast (4.0.0)
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - ICBCPAY (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - GTMBase64
+    - Toast
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  ICBCPAY:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  ICBCPAY: 7a4fabf580a64dc055925cde3d6a5b3e123ae527
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: 5739ee56c686c41f39d974d89515bac1c0166e07
+
+COCOAPODS: 1.10.0

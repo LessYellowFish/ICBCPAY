@@ -1,0 +1,49 @@
+{
+  "name": "ICBCPAY",
+  "version": "0.1.0",
+  "summary": "A short description of ICBCPAY.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LessYellowFish",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lewis": "2601958675@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LessYellowFish/ICBCPAY.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ICBCPAY/Classes/**/*",
+  "public_header_files": "ICBCPAY/Classes/ICBCHeader.h",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreMotion",
+    "CFNetwork",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Toast": [
+      "~> 4.0.0"
+    ],
+    "GTMBase64": [
+      "1.0.1"
+    ],
+    "AlipaySDK-iOS": [
+      "~> 15.6.8"
+    ],
+    "WechatOpenSDK": [
+
+    ]
+  },
+  "static_framework": true
+}

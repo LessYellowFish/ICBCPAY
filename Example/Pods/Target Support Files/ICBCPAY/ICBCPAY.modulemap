@@ -1,0 +1,6 @@
+framework module ICBCPAY {
+  umbrella header "ICBCPAY-umbrella.h"
+
+  export *
+  module * { export * }
+}
